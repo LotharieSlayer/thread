@@ -37,7 +37,6 @@ async function thread(msg){
 }
 
 async function threadDelete(msg){
-    if(Thread == false) return;
     if(msg.thread != null)
         msg.thread.delete("Message supprimé")
     
