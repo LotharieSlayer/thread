@@ -17,7 +17,7 @@ const { thread } = require("../modules/thread.js");
  * @param {Client} client The client that emitted the event.
  */
 async function execute(message, client) {
-        thread(message);
+    thread(message);
 }
 
 /* ----------------------------------------------- */
